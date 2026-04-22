@@ -8,7 +8,7 @@ Based in Chennai, India. Founder of **Code 4 Cause**, which helps non-profits ad
 
 ## What I'm building
 
-### [perch](https://github.com/arunrajiah/perch) — Bird-station companion app
+### [birdecho](https://github.com/arunrajiah/birdecho) — Bird-station companion app
 Your backyard bird station, on your phone. A companion app for BirdNET-Pi, BirdNET-Go, and BirdWeather stations.
 
 For citizen scientists, birders, and conservation programs running BirdNET-family stations.
@@ -33,12 +33,18 @@ WordPress plugin that drafts blog posts from RSS feeds using OpenAI or Anthropic
 
 For local news sites and niche publications that can't staff full-time editors.
 
+### [odoopilot](https://github.com/arunrajiah/odoopilot) — AI messaging bridge for Odoo Community
+Let your team query and act on Odoo data from Telegram — in plain language, without opening a browser.
+
+For small teams and non-profits running Odoo Community who want AI-assisted access to business data without hiring dedicated IT staff.
+
 ---
 
 ## What's next
 
-- Shipping case studies for **perch** and **speciesnet-studio** with conservation programs already running BirdNET and SpeciesNet.
+- Shipping case studies for **birdecho** and **speciesnet-studio** with conservation programs already running BirdNET and SpeciesNet.
 - Polishing **cctvql v1** — clean install story, documentation, and a short demo video.
+- Growing **odoopilot** coverage — more Odoo modules and richer guided-write flows.
 - Each pinned repo has a `good first issue` label for new contributors — PRs very welcome.
 
 ---
