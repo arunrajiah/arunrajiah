@@ -259,7 +259,7 @@
         "guid": "full-time-year",
         "status": "active",
         "name": "One year of full-time maintenance",
-        "description": "Funding requirement: this covers living expenses in Chennai for twelve months so that the work moves from roughly 20 hours a week to full time. Future goals for that year, in order: (1) a common detection schema and open ingest API so a BirdNET-Pi in Chennai, a Perch run in Kenya and a camera trap elsewhere emit the same record; (2) connectors into the platforms conservation teams already use, starting with EarthRanger and Gundi, whose integration catalog today has no bioacoustic source and no AI camera trap source at all; (3) a public aggregation layer for species presence, abundance and timing, mapped to Darwin Core and open for anyone to query; (4) a native iOS release, accessibility work and translations for BirdEcho, so contributing observations is not limited to people who can sideload an APK in English; (5) paid time for two contributors and real user support across cctvQL, FrostWatch and OdooPilot, which is what turns a project with users into a project with a community.",
+        "description": "Twelve months of full-time work instead of roughly 20 hours a week. Goals in order: a shared detection schema mapped to Darwin Core; an open ingest API; connectors into EarthRanger and Gundi, whose integration catalog has no bioacoustic and no AI camera trap source today; a public aggregation layer for species presence, abundance and timing; an iOS release and accessibility work on BirdEcho; and paid time for two contributors.",
         "amount": 22000,
         "currency": "USD",
         "frequency": "yearly",
