@@ -1,0 +1,332 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Arun Rajiah",
+    "email": "arunrajiah@gmail.com",
+    "description": "Solo open source maintainer in Chennai, India. I wrap heavy open ML models in tools that non-experts can install and actually use, then keep them maintained. My current focus is an open interoperability layer for biodiversity sensing: a shared detection schema and open ingest API so that BirdNET stations, camera traps and low cost acoustic recorders emit comparable records instead of sitting in local SQLite files and closed platforms. Everything I publish is permissively licensed, self-hostable, and sends no audio or video to any service I control.",
+    "webpageUrl": {
+      "url": "https://github.com/arunrajiah",
+      "wellKnown": "https://raw.githubusercontent.com/arunrajiah/arunrajiah/main/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [
+    {
+      "guid": "birdecho",
+      "name": "BirdEcho",
+      "description": "Your backyard bird station, on your phone. A free companion app for BirdNET-Pi, BirdNET-Go and BirdWeather acoustic monitoring stations. Live detection feed with offline caching, multi-station support, species browser with detection counts, local notifications for favourited and rare species, a home screen widget, a station map and CSV export. Signed APKs are published on GitHub Releases and the app checks for updates on launch. Built with React Native and Expo.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/birdecho"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/birdecho"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "bioacoustics",
+        "birdnet",
+        "conservation",
+        "mobile-app",
+        "react-native",
+        "citizen-science",
+        "biodiversity"
+      ]
+    },
+    {
+      "guid": "wildecho-api",
+      "name": "wildecho-api",
+      "description": "Self-hostable wildlife species identification from audio, powered by Google's open Perch 2.0 bioacoustics model. FastAPI and ONNX, runs on CPU, no API keys and no vendor account required. Ships as a Docker image so a research group, a reserve or a hobbyist can run species identification on their own hardware instead of uploading recordings to a third party.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/wildecho-api"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/wildecho-api"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "bioacoustics",
+        "machine-learning",
+        "self-hosted",
+        "conservation",
+        "audio-classification",
+        "perch",
+        "onnx"
+      ]
+    },
+    {
+      "guid": "wildecho",
+      "name": "WildEcho",
+      "description": "Mobile companion app for wildecho-api. Record a clip in the field and get ranked species candidates back from Perch 2.0, with honest confidence language rather than false certainty. Expo, React Native and TypeScript. Points at a self-hosted backend by default so users keep their own recordings.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/wildecho"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/wildecho"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "bioacoustics",
+        "wildlife",
+        "species-identification",
+        "mobile-app",
+        "expo",
+        "conservation"
+      ]
+    },
+    {
+      "guid": "speciesnet-studio",
+      "name": "SpeciesNet Studio",
+      "description": "Self-hosted review UI for SpeciesNet wildlife classifier predictions. Camera trap researchers triage thousands of AI detections, correct labels and export verified records without sending any imagery to a cloud service. Together with wildecho-api this covers the two detection modalities that EarthRanger's Gundi integration catalog currently has no source for: bioacoustics and AI camera traps.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/speciesnet-studio"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/speciesnet-studio"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "camera-trap",
+        "wildlife",
+        "speciesnet",
+        "megadetector",
+        "conservation",
+        "self-hosted",
+        "machine-learning"
+      ]
+    },
+    {
+      "guid": "cctvql",
+      "name": "cctvQL",
+      "description": "A conversational query layer for CCTV and surveillance systems. Ask questions in plain English and get answers from Frigate, ONVIF, Hikvision, Dahua, Synology Surveillance Station, Milestone XProtect and Scrypted through one adapter interface. Runs entirely on your own hardware against local or hosted language models, with a REST API, WebSocket event streaming, PTZ control, natural language alert rules and multi-channel notifications. Distributed as a Python package, a Docker image, a Home Assistant custom integration and an ioBroker adapter.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/cctvql"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/cctvql"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "cctv",
+        "nvr",
+        "frigate",
+        "onvif",
+        "home-automation",
+        "homeassistant",
+        "self-hosted",
+        "nlp"
+      ]
+    },
+    {
+      "guid": "iobroker-cctvql",
+      "name": "ioBroker.cctvql",
+      "description": "ioBroker adapter for cctvQL. Brings natural language CCTV queries, event streams and PTZ control into ioBroker home and building automation installations.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/ioBroker.cctvql"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/ioBroker.cctvql"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "iobroker",
+        "iobroker-adapter",
+        "cctv",
+        "camera",
+        "home-automation",
+        "nlp"
+      ]
+    },
+    {
+      "guid": "frostwatch",
+      "name": "FrostWatch",
+      "description": "Open source, self-hostable cost and query observability for Snowflake. Surfaces expensive queries, warehouse waste and cost drift from your own account, on your own infrastructure, on the principle that Snowflake cost monitoring should not cost more than the savings. Published on PyPI and ghcr.io.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/frostwatch"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/frostwatch"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "snowflake",
+        "observability",
+        "data-engineering",
+        "cost-optimization",
+        "self-hosted",
+        "dbt"
+      ]
+    },
+    {
+      "guid": "odoopilot",
+      "name": "OdooPilot",
+      "description": "A free, self-hosted AI assistant that lets a team use Odoo without logging in to Odoo. Employees apply for leave, approve requests, update CRM records and validate stock by chatting on Telegram or WhatsApp, in 15 languages. Built for the whole Odoo Community rather than one vertical.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/odoopilot"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/odoopilot"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "odoo",
+        "erp",
+        "telegram-bot",
+        "whatsapp",
+        "chatbot",
+        "self-hosted",
+        "automation"
+      ]
+    },
+    {
+      "guid": "openmem",
+      "name": "OpenMem",
+      "description": "Local-first, cross-provider AI conversation memory. Captures Claude, ChatGPT and Gemini history into one searchable database on your own machine, for journalists, lawyers, clinicians and anyone whose working notes should not live in someone else's cloud.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/openmem"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/openmem"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "local-first",
+        "privacy",
+        "ai",
+        "memory",
+        "typescript",
+        "self-hosted"
+      ]
+    },
+    {
+      "guid": "flowpress",
+      "name": "FlowPress",
+      "description": "Free, open source automation for WordPress. Build when X then do Y recipes without leaving your site and without sending your site's data to an external automation service. Runs entirely inside the WordPress install, with no SaaS backend and no separate server.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/flowpress"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/flowpress"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "wordpress",
+        "wordpress-plugin",
+        "automation",
+        "php",
+        "self-hosted"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/arunrajiah",
+        "description": "GitHub Sponsors, one-time or recurring, in USD. Preferred channel for individuals and companies."
+      },
+      {
+        "guid": "bank-transfer-inr",
+        "type": "bank",
+        "address": "Bank details supplied on request to arunrajiah@gmail.com",
+        "description": "Direct bank transfer to an Indian account, for grantmakers and organisations that cannot use a payment provider."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "full-time-year",
+        "status": "active",
+        "name": "One year of full-time maintenance",
+        "description": "Funding requirement: this covers living expenses in Chennai for twelve months so that the work moves from roughly 20 hours a week to full time. Future goals for that year, in order: (1) a common detection schema and open ingest API so a BirdNET-Pi in Chennai, a Perch run in Kenya and a camera trap elsewhere emit the same record; (2) connectors into the platforms conservation teams already use, starting with EarthRanger and Gundi, whose integration catalog today has no bioacoustic source and no AI camera trap source at all; (3) a public aggregation layer for species presence, abundance and timing, mapped to Darwin Core and open for anyone to query; (4) a native iOS release, accessibility work and translations for BirdEcho, so contributing observations is not limited to people who can sideload an APK in English; (5) paid time for two contributors and real user support across cctvQL, FrostWatch and OdooPilot, which is what turns a project with users into a project with a community.",
+        "amount": 22000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "bank-transfer-inr",
+          "github-sponsors"
+        ]
+      },
+      {
+        "guid": "monthly-full-time",
+        "status": "active",
+        "name": "One month of full-time maintenance",
+        "description": "Covers one month of full-time work across all listed projects, including issue triage, releases and user support.",
+        "amount": 1800,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors",
+          "bank-transfer-inr"
+        ]
+      },
+      {
+        "guid": "company-backer",
+        "status": "active",
+        "name": "Company backer",
+        "description": "For companies and organisations running cctvQL, FrostWatch, OdooPilot or wildecho-api in production. Keeps the projects maintained, the releases signed and the security issues answered.",
+        "amount": 250,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors"
+        ]
+      },
+      {
+        "guid": "individual-supporter",
+        "status": "active",
+        "name": "Individual supporter",
+        "description": "For people running a BirdNET station, a camera setup or a home automation install on these tools.",
+        "amount": 10,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors"
+        ]
+      },
+      {
+        "guid": "one-time-any",
+        "status": "active",
+        "name": "One-time contribution",
+        "description": "Any amount, one time. Goes to hosting, signing certificates, test hardware and field recorders.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "github-sponsors",
+          "bank-transfer-inr"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "year": 2026,
+        "income": 0,
+        "expenses": 0,
+        "currency": "USD",
+        "description": "No funding received to date. All work so far has been unpaid and self-funded alongside client work."
+      }
+    ]
+  }
+}
