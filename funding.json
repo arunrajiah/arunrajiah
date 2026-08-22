@@ -8,7 +8,8 @@
     "email": "arunrajiah@gmail.com",
     "description": "Solo open source maintainer in Chennai, India. I wrap heavy open ML models in tools that non-experts can install and actually use, then keep them maintained. My current focus is an open interoperability layer for biodiversity sensing: a shared detection schema and open ingest API so that BirdNET stations, camera traps and low cost acoustic recorders emit comparable records instead of sitting in local SQLite files and closed platforms. Everything I publish is permissively licensed, self-hostable, and sends no audio or video to any service I control.",
     "webpageUrl": {
-      "url": "https://github.com/arunrajiah"
+      "url": "https://raw.githubusercontent.com/arunrajiah/arunrajiah/main/README.md",
+      "wellKnown": "https://raw.githubusercontent.com/arunrajiah/arunrajiah/main/.well-known/funding-manifest-urls"
     }
   },
   "projects": [
