@@ -8,8 +8,7 @@
     "email": "arunrajiah@gmail.com",
     "description": "Solo open source maintainer in Chennai, India. I wrap heavy open ML models in tools that non-experts can install and actually use, then keep them maintained. My current focus is an open interoperability layer for biodiversity sensing: a shared detection schema and open ingest API so that BirdNET stations, camera traps and low cost acoustic recorders emit comparable records instead of sitting in local SQLite files and closed platforms. Everything I publish is permissively licensed, self-hostable, and sends no audio or video to any service I control.",
     "webpageUrl": {
-      "url": "https://raw.githubusercontent.com/arunrajiah/arunrajiah/main/README.md",
-      "wellKnown": "https://raw.githubusercontent.com/arunrajiah/arunrajiah/main/.well-known/funding-manifest-urls"
+      "url": "https://github.com/arunrajiah"
     }
   },
   "projects": [
@@ -259,7 +258,7 @@
         "guid": "full-time-year",
         "status": "active",
         "name": "One year of full-time maintenance",
-        "description": "Twelve months of full-time work instead of roughly 20 hours a week. Goals in order: a shared detection schema mapped to Darwin Core; an open ingest API; connectors into EarthRanger and Gundi, whose integration catalog has no bioacoustic and no AI camera trap source today; a public aggregation layer for species presence, abundance and timing; an iOS release and accessibility work on BirdEcho; and paid time for two contributors.",
+        "description": "Covers living expenses in Chennai for twelve months so the work moves from roughly 20 hours a week to full time. Goals for the year: a common detection schema and open ingest API for bioacoustic and camera trap records, connectors into EarthRanger and Gundi, a public aggregation layer mapped to Darwin Core, a native iOS release and translations for BirdEcho, and paid contributor time across cctvQL, FrostWatch and OdooPilot.",
         "amount": 22000,
         "currency": "USD",
         "frequency": "yearly",
