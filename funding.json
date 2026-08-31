@@ -13,6 +13,29 @@
   },
   "projects": [
     {
+      "guid": "wildlife-detection-exchange",
+      "name": "Wildlife Detection Exchange (WDX)",
+      "description": "A proposed open interchange format for AI wildlife detections from community-run sensors such as BirdNET acoustic stations and AI-classified camera traps. One small JSON object per detection event, with classifier identity, confidence and human review status as first class fields, mapped to Darwin Core so any stream exports as a GBIF-publishable dataset. Published with a citable DOI: 10.5281/zenodo.22200864. BirdEcho, wildecho-api and SpeciesNet Studio are the planned reference implementations.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/wildlife-detection-exchange"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/wildlife-detection-exchange"
+      },
+      "licenses": [
+        "spdx:MIT",
+        "spdx:CC-BY-4.0"
+      ],
+      "tags": [
+        "bioacoustics",
+        "camera-traps",
+        "darwin-core",
+        "data-standard",
+        "biodiversity-informatics",
+        "conservation"
+      ]
+    },
+    {
       "guid": "birdecho",
       "name": "BirdEcho",
       "description": "Your backyard bird station, on your phone. A free companion app for BirdNET-Pi, BirdNET-Go and BirdWeather acoustic monitoring stations. Live detection feed with offline caching, multi-station support, species browser with detection counts, local notifications for favourited and rare species, a home screen widget, a station map and CSV export. Signed APKs are published on GitHub Releases and the app checks for updates on launch. Built with React Native and Expo.",
