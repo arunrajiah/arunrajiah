@@ -36,6 +36,28 @@
       ]
     },
     {
+      "guid": "wildnetwork",
+      "name": "WildNetwork",
+      "description": "A live open map of wildlife movement and presence, built on the WDX format. It brings together detections from community sensors, today about 10,700 BirdWeather stations and iNaturalist sources, so species presence by place and week is public and reusable, and flows on to GBIF. Self-hostable, AGPL licensed. Coverage in India and Africa is very thin today; the next step is low-cost stations run by local partners there.",
+      "webpageUrl": {
+        "url": "https://github.com/arunrajiah/wildnetwork"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arunrajiah/wildnetwork"
+      },
+      "licenses": [
+        "spdx:AGPL-3.0"
+      ],
+      "tags": [
+        "biodiversity",
+        "open-data",
+        "bioacoustics",
+        "maps",
+        "conservation",
+        "citizen-science"
+      ]
+    },
+    {
       "guid": "birdecho",
       "name": "BirdEcho",
       "description": "Your backyard bird station, on your phone. A free companion app for BirdNET-Pi, BirdNET-Go and BirdWeather acoustic monitoring stations. Live detection feed with offline caching, multi-station support, species browser with detection counts, local notifications for favourited and rare species, a home screen widget, a station map and CSV export. Signed APKs are published on GitHub Releases and the app checks for updates on launch. Built with React Native and Expo.",
