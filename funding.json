@@ -300,6 +300,19 @@
     ],
     "plans": [
       {
+        "guid": "wildnetwork-programme-year",
+        "status": "active",
+        "name": "WildNetwork stations programme and WDX core (one year)",
+        "description": "Funds a year of full-time development and maintenance of WildNetwork and the WDX standard, a small team, and low-cost open hardware listening and camera stations in regions with almost no wildlife monitoring today, starting with India and Africa.",
+        "amount": 100000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "bank-transfer-inr",
+          "github-sponsors"
+        ]
+      },
+      {
         "guid": "full-time-year",
         "status": "active",
         "name": "One year of full-time maintenance",
